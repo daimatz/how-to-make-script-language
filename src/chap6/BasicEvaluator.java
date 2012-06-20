@@ -1,5 +1,5 @@
 package chap6;
-//import javaassist.gluonj.*;
+import javassist.gluonj.*;
 import stone.Token;
 import stone.StoneException;
 import stone.ast.*;

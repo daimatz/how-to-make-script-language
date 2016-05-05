@@ -14,7 +14,7 @@ import java.util.List;
 	@Reviser public static class ASTListEx extends ASTList {
 		public ASTListEx(List<ASTree> c) { super(c); }
 		public Object eval(Environment env) {
-			throw new StoneException("cannnot eval: " + toString(), this);
+			throw new StoneException("cannot eval: " + toString(), this);
 		}
 	}
 	@Reviser public static class ASTLeafEx extends ASTLeaf {
